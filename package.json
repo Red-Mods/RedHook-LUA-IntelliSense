@@ -5,37 +5,30 @@
   "icon": "images/logo.png",
   "publisher": "RedModsTeam",
   "license": "MIT",
-  "version": "0.0.1",
-  "repository":
-  {
-		"type": "git",
-		"url": "https://github.com/Red-Mods/RedHook-LUA-IntelliSense"
-	},
-  "engines":
-  {
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Red-Mods/RedHook-LUA-IntelliSense"
+  },
+  "engines": {
     "vscode": "^1.90.0"
   },
-  "categories":
-  [
+  "categories": [
     "Snippets",
     "Programming Languages"
   ],
-  "keywords":
-  [
+  "keywords": [
     "Lua",
     "RedHook",
     "RedHook LUA",
     "Snippets",
     "IntelliSense"
   ],
-  "extensionDependencies":
-  [
+  "extensionDependencies": [
     "sumneko.lua"
   ],
-  "contributes":
-  {
-    "snippets":
-    [
+  "contributes": {
+    "snippets": [
       {
         "language": "lua",
         "path": "./snippets/snippets.code-snippets"
