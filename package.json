@@ -1,0 +1,45 @@
+{
+  "name": "redhook-lua-intellisense",
+  "displayName": "RedHook LUA IntelliSense",
+  "description": "IntelliSense support for the Lua Script runtime used by RedHook LUA",
+  "icon": "images/logo.png",
+  "publisher": "RedModsTeam",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository":
+  {
+		"type": "git",
+		"url": "https://github.com/Red-Mods/RedHook-LUA-IntelliSense"
+	},
+  "engines":
+  {
+    "vscode": "^1.90.0"
+  },
+  "categories":
+  [
+    "Snippets",
+    "Programming Languages"
+  ],
+  "keywords":
+  [
+    "Lua",
+    "RedHook",
+    "RedHook LUA",
+    "Snippets",
+    "IntelliSense"
+  ],
+  "extensionDependencies":
+  [
+    "sumneko.lua"
+  ],
+  "contributes":
+  {
+    "snippets":
+    [
+      {
+        "language": "lua",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
